@@ -9,9 +9,9 @@ it('renders without crashing', () => {
     shallow(<App />);
 });
 
-it('renders the title', () => {
+it('renders two titles', () => {
     const wrapper = shallow(<App/>);
-    expect(wrapper.find('.Title').length).toBe(1);
+    expect(wrapper.find('.Title').length).toBe(2);
 });
 
 it('renders four links', () => {

@@ -8,6 +8,7 @@ class App extends Component {
             <div className="App">
                 <header className="App-header">
                     <h1 className="Title"> Welcome! </h1>
+                    <h6 className="Title">This is DevOps.</h6>
                     <img src={logo} className="App-logo" alt="logo"/>
                     <p>
                         Click the links below:

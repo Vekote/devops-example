@@ -43,6 +43,16 @@ class App extends Component {
                                 Wikipedia
                             </a>
                         </li>
+                        <li>
+                            <a
+                                className="App-link"
+                                href="https://www.facebook.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Facebook
+                            </a>
+                        </li>
                     </ul>
 
                 </header>

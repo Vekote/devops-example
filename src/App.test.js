@@ -18,3 +18,8 @@ it('renders four links', () => {
    const wrapper = shallow(<App/>);
    expect(wrapper.find('.App-link').length).toBe(4);
 });
+
+it('renders image', () => {
+    const wrapper = shallow(<App/>);
+    expect(wrapper.find('.App-logo').length).toBe(1);
+ });

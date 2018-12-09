@@ -14,7 +14,7 @@ it('renders the title', () => {
     expect(wrapper.find('.Title').length).toBe(1);
 });
 
-it('renders three links', () => {
+it('renders four links', () => {
    const wrapper = shallow(<App/>);
    expect(wrapper.find('.App-link').length).toBe(4);
 });

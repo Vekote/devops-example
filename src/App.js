@@ -54,6 +54,16 @@ class App extends Component {
                                 Facebook
                             </a>
                         </li>
+                        <li>
+                            <a
+                                className="App-link"
+                                href="https://reddit.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Facebook
+                            </a>
+                        </li>
                     </ul>
 
                 </header>
